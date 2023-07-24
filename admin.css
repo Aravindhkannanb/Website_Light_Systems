@@ -1,0 +1,126 @@
+h2{
+    font-size: 22px;
+    font-weight: 600;
+    color:#333;
+    position: relative;
+}
+body{
+    background-color: rgb(24, 20, 40);
+}
+*{
+    box-sizing: border-box;
+}
+.wrap form{
+    margin-top: 20px;
+}
+.wrap{
+    position: relative;
+    max-width: 430px;
+    width: 100%;
+    background-color: #fff;
+    padding: 34px;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.wrap form .input{
+    height: 52px;
+    margin:18px 0;
+}
+
+/* CSS */
+.button-1 {
+  background-color: #EA4C89;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  height: 40px;
+  padding: 6px 16px;
+  text-align: center;
+  transition: color 100ms;
+}
+.button-2 {
+    background-color: #2daf43;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    height: 40px;
+    padding: 6px 16px;
+    text-align: center;
+    transition: color 100ms;
+  }
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #F082AC;
+}
+.button-2:hover,
+.button-2:focus {
+  background-color: #6dc387;
+}
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    width: 60%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: center;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    text-align: center;
+}
+form .input input{
+    height: 100%;
+    width: 100%;
+    padding: 0px 15px;
+    font-size: 17px;
+    font-weight: 400;
+    color:#333;
+    border:2px solid #C7BEBE;
+    border-radius: 6px;
+    border-bottom-width: 3px;
+}
+.input.button input{
+    color: #fff;
+    letter-spacing: 1px;
+    border: none;
+    background: #4070f4;
+    cursor: pointer;
+}
+.input.button input{
+    color: #fff;
+    letter-spacing: 1px;
+    border: none;
+    background: #4070f4;
+    cursor: pointer;
+}
+.input.button input:hover{
+    background: #0e4bf1;
+}

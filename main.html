@@ -1,0 +1,63 @@
+<html>
+    <header>
+        <title>
+            E-Commerce
+        </title>
+        <link rel="stylesheet" href="main.css">
+    </header>
+    <body id="body">
+<div class="nav">
+    <nav>
+        <img src="image/menu.png" class="menu">
+        <img src="image/logo1.png" class="logo">
+        <ul>
+            <li>
+                <a href="login.html">Login</a>
+            </li>
+            <li>
+                <a href="">Contact</a>
+            </li>
+            <li>
+                <a href="admin.php">Product Admin Panel</a>
+            </li>
+            <button onclick="togglebtn()" id="btn"><span></span></button>
+        </ul>
+    </nav>
+    <div class="lamp-container">
+        <img src="image/lamp.png" class="lamp">
+        <img src="image/light.png" class="light" id="light">
+    </div>
+    <wbr>
+    <div class="text-container">
+<h1>Latest<br>in Retail Store</h1>
+<p>This is the first Product from our company.We are making a huge
+    collection of modern Retail Product all categories from home use to office use.
+</p>
+<label for="file" style="color:white">Customer Satisfaction:</label>
+<progress id="file" value="70" max="100"> 32% </progress>
+<wbr>
+<a href="addcart.html">Check all Collection</a>
+    </div>
+</div>
+<div>
+    
+</div>
+<footer id="footer" style="background-color: #00986f;
+color:#fff;
+padding: 10px;
+text-align: center;
+font-size: 14px;">
+    &copy; 2023 VueLamp Enterprises,All rights reserved.
+</footer>
+<script>
+    var btn=document.getElementById("btn");
+    var light=document.getElementById("light");
+    function togglebtn(){
+        btn.classList.toggle("active");
+        light.classList.toggle("on");
+
+    }
+</script>
+
+    </body>
+</html>
